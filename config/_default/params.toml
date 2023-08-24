@@ -1,20 +1,21 @@
 
-title = "Adi"
-author = "Adi"
+title = "ADI"
+author = "Adi's Blog"
 #copyright = "2020-2021"
 description = "Hello, I'm Adi. welcome to my blog, \n Enjoying my some experence as a Software Engineer.\n Welcome to contact me, if you have any issue!\n @kokp520@gmail.com"
 profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
-# example ["css/custom.css"]
-customCss = []
+
+customCss = ["css/style.css", "css/custom.css"]
 # example ["js/custom.js"]
+
 customJs = [] 
 mainSections = ["post"]
 images = ["images/site-feature-image.png"]
 doNotLoadAnimations = false
 #  Form Spree Contact Form
-contactFormAction = "https://formspree.io/f/your-form-hash-here"
+#contactFormAction = "https://formspree.io/f/your-form-hash-here"
 #contactFormReCaptcha = "your-site-key-here"
 # Google Fonts
 #googleFonts = ["Indie+Flower", "Roboto:ital,wght@0,100;0,400;0,700;1,400"]
@@ -23,8 +24,8 @@ contactFormAction = "https://formspree.io/f/your-form-hash-here"
 singleDateFormat = "2/1/2006"
 indexDateFormat = "2/1/2006"
 listDateFormat = "2/1/2006"
-# Commento Comments
-# CommentoURL = "https://commento.example.com/js/commento.js"
+#Commento Comments
+CommentoURL = "https://commento.example.com/js/commento.js"
 # Read More links for truncated summaries
 # readMore = true
 # postSectionName = "blog"

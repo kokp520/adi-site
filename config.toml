@@ -3,9 +3,6 @@ languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Website of ADI WU"
 
-# theme as hugo module
-#theme = "github.com/lxndrblz/anatole"
-# theme as git submodule
 theme = "anatole"
 
 summarylength = 10

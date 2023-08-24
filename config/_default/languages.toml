@@ -4,7 +4,7 @@ weight = 1
 LanguageName = "EN"
 contentDir = "content/en"
 
-[zh]
+[zh-tw]
 title = "My blog"
 weight = 0
 LanguageName = "ZH"

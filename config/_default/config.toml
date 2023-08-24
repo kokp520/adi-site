@@ -1,11 +1,8 @@
-baseURL = "https://example.com"
+baseURL = "https://kokp520.github.io/"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Jane Doess"
+title = "ADI's BLOG"
 
-# theme as hugo module
-#theme = "github.com/lxndrblz/anatole"
-# theme as git submodule
 theme = "anatole"
 
 summarylength = 10
@@ -46,3 +43,5 @@ localizedDates = false
 [[related.indices]]
   name = 'tags'
   weight = 80
+  
+customCss = ["css/custom.css", "css/styles.css"]

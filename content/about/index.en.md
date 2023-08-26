@@ -1,82 +1,56 @@
 ---
-title: "About me"
+title: "About"
 # subtitle: "Me about software engineer"
-date: 2019-08-02T11:04:49+08:00
+date: 2023-08-26T18:11:09+08:00
+# lastmod: 2023-08-26T18:11:09+08:00
+
 draft: false
 description: "Fun fact about me."
-images: ["/Apple-Devices-Preview.png"]
+images: []
 
 lightgallery: true
 
 math:
   enable: true
+
 ---
 
-> Welcome to my personal blog! Here i'll be sharing insights about my experience as a software engineer. i like to keep things simple and relatable. <br>
-> if you have any questions or any job oppertunities related to engineering. please contact me, let's have a chat.
-> By {{< person "https://kokp520.github.io/" Adi "author of the LoveIt theme" "/adi_avatar.png" >}}.
+{{<admonition info "Abstract" true>}}
+Welcome to my personal blog!<br>
+ Here i'll be sharing insights about my experience as a software engineer.
+ <br> i like to keep things simple and relatable. <br>
+if you have any questions or any job oppertunities related to engineering. please contact me, let's have a chat.
+ By {{< person "https://kokp520.github.io/" Adi "author of the LoveIt theme" "/adi_avatar.png" >}}.
+
+{{</admonition>}}
 
 ![Hugo Theme LoveIt](/MAN_TYPING.gif)
 
-## Features
+## about me
 
-### Performance and SEO
+### Introduction
 
-* :(fas fa-rocket fa-fw): Optimized for **performance**: [99]/[100] on mobile and [100]/[100] on desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
-* :(fab fa-searchengin fa-fw): Optimized SEO performance with a correct **SEO SCHEMA** based on JSON-LD
-* :(fab fa-google fa-fw): **[Google Analytics](https://analytics.google.com/analytics)** supported
-* :(far fa-chart-bar fa-fw): **[Fathom Analytics](https://usefathom.com/)** supported
-* :(fas fa-chart-column fa-fw): **[Plausible Analytics](https://plausible.io/)** supported
-* :(fab fa-yandex-international fa-fw): **[Yandex Metrica](https://metrica.yandex.com/)** supported
-* :(fas fa-sitemap fa-fw): Search engine **verification** supported (Google, Bind, Yandex and Baidu)
-* :(fas fa-tachometer-alt fa-fw): **CDN** for third-party libraries supported
-* :(fas fa-cloud-download-alt fa-fw): Automatically converted images with **Lazy Load** by [lazysizes](https://github.com/aFarkas/lazysizes)
+Hi, 我是Adi，我目前從事軟體工程師一年以上的時間，主要負責的工作是後端工程師，現在從事的項目是遊戲server維護以及開發新功能，善於團隊合作針對需求以及不同的產品設計不同的server service，陸陸續續將會更新到posts。
 
-### Appearance and Layout
+### Blog
 
-* :(fas fa-mobile-screen fa-fw): **[Desktop]/[Mobile] responsive** layout
-* :(fas fa-circle-half-stroke fa-rotate-180 fa-fw): **[Light]/[Dark]** mode
-* :(fas fa-layer-group fa-fw): Globally consistent **design language**
-* :(fas fa-ellipsis-h fa-fw): **Pagination** supported
-* :(far fa-list-alt fa-fw): Easy-to-use and self-expanding **table of contents**
-* :(fas fa-language fa-fw): **Multilanguage** supported and i18n ready
-* :(fab fa-css3-alt fa-fw): Beautiful **CSS animation**
+2023-8-27 開始決定經營blog，主要的原因是想要有個自己的網站可以紀錄個人的`Change log`，也記下自己在當工程師的每個階段里程碑，過一段時間確認自己的方向是否為自己希望的`Envisioned Life`，另一方面想增進自己統整以及寫blog能力，在吸收到新的知識後，透過寫blog`釐清自己的觀念`，以及紀錄實用面的觀念，在未來快速找到工具使用。
 
-### Social and Comment Systems
+之前也有開發`AI server`處理ai事務，舉例：pre-commit-msg case...等，我意識到我的日常類似統整或是翻譯事項已經開始交給AI處理，為了培養統整以及優化自己本身的溝通能力，利用blog的方式持續進步。
 
-* :(far fa-user fa-fw): **Gravatar** supported by [Gravatar](https://gravatar.com)
-* :(fas fa-user-circle fa-fw): Local **Avatar** supported
-* :(far fa-id-card fa-fw): Up to **73** social links supported
-* :(fas fa-share-square fa-fw): Up to **24** share sites supported
-* :(far fa-comment fa-fw): **Disqus** comment system supported by [Disqus](https://disqus.com)
-* :(far fa-comment-dots fa-fw): **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
-* :(far fa-comment-alt fa-fw): **Valine** comment system supported by [Valine](https://valine.js.org/)
-* :(far fa-comments fa-fw): **Facebook comments** system supported by [Facebook](https://developers.facebook.com/docs/plugins/comments/)
-* :(fas fa-comment fa-fw): **Telegram comments** system supported by [Comments](https://comments.app/)
-* :(fas fa-comment-dots fa-fw): **Commento** comment system supported by [Commento](https://commento.io/)
-* :(fas fa-comment-alt fa-fw): **utterances** comment system supported by [utterances](https://utteranc.es/)
-* :(fas fa-comments fa-fw): **giscus** comment system supported by [giscus](https://giscus.app/)
+### Work with me 
 
-### Extended Features
+**易維護且易擴充服務**
 
-* :(fas fa-search fa-fw): **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
-* :(far fa-grin-tongue-wink fa-fw): **Twemoji** supported
-* :(fas fa-code fa-fw): Automatically **highlighting** code
-* :(far fa-copy fa-fw): **Copy code** to clipboard with one click
-* :(far fa-images fa-fw): **Images gallery** supported by [lightGallery](https://github.com/sachinchoolur/lightgallery)
-* :(fab fa-font-awesome fa-fw): Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
-* :(fas fa-superscript fa-fw): Extended Markdown syntax for **ruby annotation**
-* :(fas fa-percentage fa-fw): Extended Markdown syntax for **fraction**
-* :(fas fa-square-root-alt fa-fw): **Mathematical formula** supported by [$\KaTeX$](https://katex.org/)
-* :(fas fa-project-diagram fa-fw): **Diagrams** shortcode supported by [mermaid](https://github.com/mermaid-js/mermaid)
-* :(fas fa-chart-pie fa-fw): **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
-* :(fas fa-map-marked-alt fa-fw): **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* :(fas fa-music fa-fw): **Music player** shortcode supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
-* :(fab fa-bilibili fa-fw): **Bilibili player** shortcode
-* :(fas fa-note-sticky fa-fw): Kinds of **admonitions** shortcode
-* :(fab fa-css3 fa-fw): **Custom style** shortcode
-* :(fab fa-js-square fa-fw): **Custom script** shortcode
-* :(fas fa-i-cursor fa-fw): **Animated typing** supported by [TypeIt](https://typeitjs.com/)
-* :(fas fa-cookie-bite fa-fw): **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
-* :(far fa-user-circle fa-fw): **Person** shortcode
-* ...
+產品上線後，為了產品的`生命週期`，會需要對產品做維護以及開發更多`可用功能`，在設計之初就要儘量滿足未來的各式考量，具有開發多個產品會需要針對不同接口的服務。
+
+**團隊合作**
+
+在發開產品的主要雛形透過團隊或是自身開發，在未來後續團隊接手的`學習成本`也是重要的一環，從***溝通討論共識*** 到後期的`文件處理`，都可以有效減低新進人員的上手時間。
+
+**自動化流程**
+
+礙於產品開發時程，構思提高開發效率方法，已開發多個能夠提高團隊開發速度`工具`，以及`自動化測試流程`，`整合測試工具`，建構自動化提升團隊開發效率，不需要讓團隊浪費重複且繁瑣的工作，舉例 `AI Server`後期也處理改版文件的統整。
+
+
+

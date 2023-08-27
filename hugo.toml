@@ -37,6 +37,9 @@ copyright = "ADI"
 # whether to use robots.txt
 # 是否使用 robots.txt
 enableRobotsTXT = true
+
+
+
 # whether to use git commit log
 # 是否使用 git 信息
 enableGitInfo = true
@@ -103,7 +106,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   fingerprint = ""
   # date format
   # 日期格式
-  dateFormat = "2023-11-17"
+  dateFormat = ""
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
   title = "Adi's blog"
@@ -615,7 +618,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.typeit]
     # typing speed between each step (measured in milliseconds)
     # 每一步的打字速度 (单位是毫秒)
-    speed = 100
+    speed = 70
     # blinking speed of the cursor (measured in milliseconds)
     # 光标的闪烁速度 (单位是毫秒)
     cursorSpeed = 1000

@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 3
 title: "Theme Documentation - Content"
 date: 2020-03-05T15:58:26+08:00
 lastmod: 2020-03-05T15:58:26+08:00
@@ -37,6 +37,7 @@ A few suggestions to help you get a good looking site quickly:
 
 {{< admonition note "Local Resource Reference" >}}
 {{< version 0.2.10 >}}
+
 
 There are three ways to reference local resources such as **images** and **music**:
 

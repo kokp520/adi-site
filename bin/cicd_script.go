@@ -11,8 +11,10 @@ func main() {
     // 設定 Hugo 專案目錄的路徑
     hugoProjectPath := "/Users/adi.wu/blog/kokp520.github.io"
 
+    hugoPath := "/Users/adi.wu/blog/adisite/"
+
     // 執行 Hugo 命令
-    if err := executeCommand(hugoProjectPath, "hugo"); err != nil {
+    if err := executeCommand(hugoPath, "hugo"); err != nil {
         fmt.Println("Hugo 執行失敗:", err)
         return
     }

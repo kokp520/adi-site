@@ -1,6 +1,6 @@
 ---
 weight: 1
-title: "world"
+title: "如何創建Hugo網站"
 subtitle: ""
 date: 2023-08-26T18:11:09+08:00
 lastmod: 2023-08-26T18:11:09+08:00
@@ -53,11 +53,56 @@ seo:
 ---
 
 <!--more-->
-# hello wrold 
+# my blog!
 
 hello world
 
+{{<figure src="banner.png" title="banner" >}}
 
-<!-- {{<figure src="simple_line_logo.png" title="Lighthouse (figure)" >}} -->
-{{<figure src="adi_website_banner.png" title="banner" >}}
+
+### 專案結構
+```
+./
+├── archetypes
+├── assets
+│   ├── css
+│   │   ├── _core
+│   │   ├── _mixin
+│   │   ├── _page
+│   │   ├── _partial
+│   │   │   ├── _archive
+│   │   │   ├── _single
+│   ├── data
+│   │   ├── cdn
+│   ├── svg
+│   │   ├── icons
+├── bin 
+├── content
+│   ├── about
+│   ├── posts
+│   │   ├── oldroad-website
+│   │   ├── sms-python-gogoro
+│   │   ├── world
+│   │    ....more
+├── data
+├── i18n
+├── images
+├── layouts
+│   ├── _default
+│   │   ├── _markup
+│   ├── partials
+│   │   ├── function
+│   │   ├── head
+│   │   ├── home
+│   │   ├── plugin
+│   │   ├── rss
+│   │   ├── scratch
+│   │   ├── single
+│   ├── posts
+│   ├── shortcodes
+│   ├── taxonomy
+├── resources
+├── src
+├── static
+```
 

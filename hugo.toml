@@ -1,8 +1,5 @@
 baseURL = "https://example.com"
 
-disqusShortname = "personal-site-12"
-
-
 # theme
 # 主题
 theme = "./"
@@ -12,7 +9,7 @@ themesDir = "themes/LoveIt"
 
 # website title
 # 网站标题
-title = "Adiwu98's Blog"
+title = "Adi98's Blog"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
@@ -32,7 +29,7 @@ hasCJKLanguage = false
 paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
 # 谷歌分析代号 [UA-XXXXXXXX-X]
-googleAnalytics = ""
+# googleAnalytics = ""
 # copyright description used only for seo schema
 # 版权描述，仅仅用于 SEO
 copyright = "ADI"
@@ -495,10 +492,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
-        enable = false
+        enable = true
+        proxy = true
+
         # Disqus shortname to use Disqus in posts
         # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
-        shortname = ""
+        shortname = "personal-site-12"
       # Gitalk comment config (https://github.com/gitalk/gitalk)
       # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]

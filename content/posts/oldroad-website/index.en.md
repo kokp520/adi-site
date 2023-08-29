@@ -87,7 +87,21 @@ The `process` was a fusion of self-guided learning and hands-on experience. I st
 
 In retrospect, this achievement has force my foundation as a developer. My E-commerce creation not only showcases products but also `embodies the culmination of hours spent learning`. 
 
-### Source code
+## Architecture of folder
+
+```
+./OldroadWebsite
+├── config
+├── controllers
+├── hero
+├── middleware
+├── model
+├── photo
+├── router
+├── views
+```
+
+## Source code
 
 [my github repo](https://github.com/kokp520/oldroad-shop-website-nodejs-express-mongodb)
 

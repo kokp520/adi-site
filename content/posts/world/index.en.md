@@ -1,6 +1,6 @@
 ---
 weight: 1
-title: "如何創建Hugo網站"
+title: "comming soon..."
 subtitle: ""
 date: 2023-08-26T18:11:09+08:00
 lastmod: 2023-08-26T18:11:09+08:00
@@ -23,6 +23,7 @@ fraction: true
 fontawesome: true
 linkToMarkdown: true
 rssFullText: false
+categories: ["comming soon"]
 
 toc:
   enable: true
@@ -52,10 +53,10 @@ seo:
   # ...
 ---
 
+第一篇文製作中...
+
 <!--more-->
 # my blog!
-
-hello world
 
 {{<figure src="banner.png" title="banner" >}}
 

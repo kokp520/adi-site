@@ -27,9 +27,10 @@ math:
 **_OldroadWebsite | SHOP | Nodejs | Express | MongoDB
 <br>使用`Nodejs`+`express`開發購物網站，包含登入系統、後台系統、購物車系統。_**
 
-![banner](feature-banner.gif "Old-Road Shop")
 
 <!--more-->
+
+![banner](feature-banner.gif "Old-Road Shop")
 
 ## Introduction {#introduction}
 

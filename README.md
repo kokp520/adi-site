@@ -2,7 +2,7 @@
 
 ## 原文處
 
-[my blog](https://kokp520.github.io)
+[my blog](https://kokp520.github.io/about)
 
 ## About
 

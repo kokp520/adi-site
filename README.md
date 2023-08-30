@@ -1,215 +1,56 @@
-# LoveIt Theme | Hugo [![Netlify Status](https://api.netlify.com/api/v1/badges/e60303f2-862c-4342-bf59-7c9adb10812e/deploy-status)](https://app.netlify.com/sites/hugo-loveit/deploys)
+# Personal website
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/releases)
-[![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/blob/master/LICENSE)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=dillonzq_LoveIt&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=dillonzq_LoveIt)
-[![CircleCI](https://circleci.com/gh/dillonzq/LoveIt/tree/master.svg?style=svg)](https://circleci.com/gh/dillonzq/LoveIt/tree/master)
+## 原文處
 
-English README | [简体中文说明](https://github.com/dillonzq/LoveIt/blob/master/README.zh-cn.md)
+[my blog](https://kokp520.github.io)
 
-> **LoveIt** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
+## About
 
-It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+Welcome to my personal blog!<br>
+ Here i'll be sharing insights about my experience as a software engineer.
+ <br> i like to keep things simple and relatable. <br>
+if you have any questions or any job oppertunities related to engineering. please contact me, let's have a chat.
 
-Since the three themes have a similar look, if you have questions about their differences,
-read [Why choose LoveIt](#why-choose-loveit) so that you can choose the one that works best for you.
 
-![Hugo Theme LoveIt](https://github.com/dillonzq/LoveIt/raw/master/images/Apple-Devices-Preview.png)
+### Introduction
 
-## [Demo Site](https://hugoloveit.com/)
+Hi, 我是Adi，我目前從事軟體工程師一年以上的時間，主要負責的工作是後端工程師，現在從事的項目是遊戲server維護以及開發新功能，善於團隊合作針對需求以及不同的產品設計不同的server service，陸陸續續將會更新到posts。
 
-To see this theme in action, here is a live [demo site](https://hugoloveit.com/) which is rendered with **LoveIt** theme.
+### Blog
 
-## Why choose LoveIt
+2023-8-27 開始決定經營blog，主要的原因是想要有個自己的網站可以紀錄個人的`Change log`，也記下自己在當工程師的每個階段里程碑，過一段時間確認自己的方向是否為自己希望的`Envisioned Life`，另一方面想增進自己統整以及寫blog能力，在吸收到新的知識後，透過寫blog`釐清自己的觀念`，以及紀錄實用面的觀念，在未來快速找到工具使用。
 
-Compared to the original LeaveIt theme and the KeepIt theme, the LoveIt theme has the following modifications.
+之前也有開發`AI server`處理ai事務，舉例：pre-commit-msg case...等，我意識到我的日常類似統整或是翻譯事項已經開始交給AI處理，為了培養統整以及優化自己本身的溝通能力，利用blog的方式持續進步。
 
-* Custom **Header**
-* Custom **CSS Style**
-* A new **home page**, compatible with the latest version of Hugo
-* A lot of **style detail adjustments,** including color, font size, margins, code preview style
-* More readable **dark mode**
-* Some beautiful **CSS animations**
-* Easy-to-use and self-expanding **table of contents**
-* More **social links**, **share sites** and **comment system**
-* **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
-* **Copy code** to clipboard with one click
-* Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
-* Extended Markdown syntax for **ruby annotation**
-* Extended Markdown syntax for **fraction**
-* **Mathematical formula** supported by [KaTeX](https://katex.org/)
-* **Diagram syntax** shortcode supported by [mermaid](https://github.com/mermaid-js/mermaid)
-* **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
-* **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* Embedded **music player** supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
-* **Bilibili** player supported
-* Kinds of **admonitions** shortcode supported
-* Custom style shortcodes supported
-* **CDN** for all third-party libraries supported
-* ...
+### Work with me 
 
-In short,
-if you prefer the design language and freedom of the LoveIt theme,
-if you want to use the extended Font Awesome icons conveniently,
-if you want to embed mathematical formulas, flowcharts, music or Bilibili videos in your posts,
-the LoveIt theme may be more suitable for you.
+**易維護且易擴充服務**
 
-I hope you will LoveIt ❤️!
+產品上線後，為了產品的`生命週期`，會需要對產品做維護以及開發更多`可用功能`，在設計之初就要儘量滿足未來的各式考量，具有開發多個產品會需要針對不同接口的服務。
 
-## Features
+**團隊合作**
 
-### Performance and SEO
+在發開產品的主要雛形透過團隊或是自身開發，在未來後續團隊接手的`學習成本`也是重要的一環，從***溝通討論共識*** 到後期的`文件處理`，都可以有效減低新進人員的上手時間。
 
-* Optimized for **performance**: 99/100 on mobile and 100/100 on desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
-* Optimized SEO performance with a correct **SEO SCHEMA** based on JSON-LD
-* **[Google Analytics](https://analytics.google.com/analytics)** supported
-* **[Fathom Analytics](https://usefathom.com/)** supported
-* **[Plausible Analytics](https://plausible.io/)** supported
-* **[Yandex Metrica](https://metrica.yandex.com/)** supported
-* Search engine **verification** supported (Google, Bind, Yandex and Baidu)
-* **CDN** for third-party libraries supported
-* Automatically converted images with **Lazy Load** by [lazysizes](https://github.com/aFarkas/lazysizes)
+**自動化流程**
 
-### Appearance and Layout
+礙於產品開發時程，構思提高開發效率方法，已開發多個能夠提高團隊開發速度`工具`，以及`自動化測試流程`，`整合測試工具`，建構自動化提升團隊開發效率，不需要讓團隊浪費重複且繁瑣的工作，舉例 `AI Server`後期也處理改版文件的統整。
 
-* **Desktop/Mobile Responsive** layout
-* **Light/Dark** mode
-* Globally consistent **design language**
-* **Pagination** supported
-* Easy-to-use and self-expanding **table of contents**
-* **Multilanguage** supported and i18n ready
-* Beautiful **CSS animation**
+## LICENSE
 
-### Social and Comment Systems
+Copyright Notice
 
-* **Gravatar** supported by [Gravatar](https://gravatar.com)
-* Local **Avatar** supported
-* Up to **73** social links supported
-* Up to **24** share sites supported
-* **Disqus** comment system supported by [Disqus](https://disqus.com)
-* **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
-* **Valine** comment system supported by [Valine](https://valine.js.org/)
-* **Facebook comments** system supported by [Facebook](https://developers.facebook.com/docs/plugins/comments/)
-* **Telegram comments** system supported by [Telegram Comments](https://comments.app/)
-* **Commento** comment system supported by [Commento](https://commento.io/)
-* **utterances** comment system supported by [utterances](https://utteranc.es/)
-* **giscus** comment system supported by [giscus](https://giscus.app/)
+Unless otherwise stated, all content in this repository is created or translated by me and is protected by applicable copyright laws.
 
-### Extended Features
+This includes but is not limited to:
 
-* **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
-* **Twemoji** supported
-* Automatically **highlighting** code
-* **Copy code** to clipboard with one click
-* **Images gallery** supported by [lightGallery](https://github.com/sachinchoolur/lightgallery)
-* Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
-* Extended Markdown syntax for **ruby annotation**
-* Extended Markdown syntax for **fraction**
-* **Mathematical formula** supported by [KaTeX](https://katex.org/)
-* **Diagrams** shortcode supported by [mermaid](https://github.com/mermaid-js/mermaid)
-* **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
-* **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* **Music player** shortcode supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
-* **Bilibili player** shortcode
-* Kinds of **admonitions** shortcode
-* **Custom style** shortcode
-* **Custom script** shortcode
-* **Animated typing** supported by [TypeIt](https://typeitjs.com/)
-* **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
-* **Person** shortcode
-* ...
+- Code snippets
+- Documentation
+- Text descriptions
+- Images and graphics
 
-## [Documentation](https://hugoloveit.com/categories/documentation/)
+No part of this repository may be used for commercial or non-commercial purposes without explicit written permission.
 
-Build Documentation Locally:
+For inquiries, please contact me at `kokp520@gmail.com`.
 
-```bash
-hugo server --source=exampleSite
-```
-
-## Multilingual and i18n
-
-LoveIt supports the following languages:
-
-* English
-* Simplified Chinese
-* Traditional Chinese
-* French
-* Polish
-* Brazilian Portuguese
-* Italian
-* Spanish
-* German
-* Serbian
-* Russian
-* Romanian
-* Vietnamese
-* Arabic
-* Catalan
-* Thai
-* Telugu
-* Indonesian
-* Turkish
-* Korean
-* Hindi
-* [Contribute with a new language](https://github.com/dillonzq/LoveIt/pulls)
-
-[Languages Compatibility](https://hugoloveit.com/theme-documentation-basics/#language-compatibility)
-
-## [Roadmap](https://github.com/dillonzq/LoveIt/projects/1)
-
-## Questions, ideas, bugs, pull requests
-
-All feedback is welcome! Head over to the [issue tracker](https://github.com/dillonzq/LoveIt/issues).
-
-## License
-
-LoveIt is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/dillonzq/LoveIt/blob/master/LICENSE) for details.
-
-## Special Thanks
-
-Thanks to the authors of following resources included in the theme:
-
-* [normalize.css](https://github.com/necolas/normalize.css)
-* [Font Awesome](https://fontawesome.com/)
-* [Simple Icons](https://github.com/simple-icons/simple-icons)
-* [Animate.css](https://daneden.github.io/animate.css/)
-* [autocomplete](https://github.com/algolia/autocomplete)
-* [Lunr.js](https://lunrjs.com/)
-* [algoliasearch](https://github.com/algolia/algoliasearch-client-javascript)
-* [lazysizes](https://github.com/aFarkas/lazysizes)
-* [object-fit-images](https://github.com/fregante/object-fit-images)
-* [Twemoji](https://github.com/twitter/twemoji)
-* [emoji-data](https://github.com/iamcal/emoji-data)
-* [lightGallery](https://github.com/sachinchoolur/lightgallery)
-* [clipboard.js](https://github.com/zenorocha/clipboard.js)
-* [Sharer.js](https://github.com/ellisonleao/sharer.js)
-* [TypeIt](https://typeitjs.com/)
-* [KaTeX](https://katex.org/)
-* [mermaid](https://github.com/mermaid-js/mermaid)
-* [ECharts](https://echarts.apache.org/)
-* [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* [APlayer](https://github.com/MoePlayer/APlayer)
-* [MetingJS](https://github.com/metowolf/MetingJS)
-* [Gitalk](https://github.com/gitalk/gitalk)
-* [Valine](https://valine.js.org/)
-* [cookieconsent](https://github.com/osano/cookieconsent)
-
-## Author
-
-[Dillon](https://dillonzq.com)
-
-## Sponsor
-
-If you enjoy the theme, please consider buying me a coffee ☕️.
-
-* [PayPal](https://paypal.me/dillonzq)
-* [Alipay](https://github.com/dillonzq/LoveIt/raw/master/images/Alipay.jpg)
-* [Wechat](https://github.com/dillonzq/LoveIt/raw/master/images/Wechat.jpg)
-
-Thanks! ❤️
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/dillonzq/LoveIt.svg)](https://starchart.cc/dillonzq/LoveIt)
+© Adi98 All rights reserved.

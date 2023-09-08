@@ -191,8 +191,6 @@ if(isset($keyValueStorage[$key])){
 查詢每個部門的平均工資,可以這樣寫SQL語句:
 
 ```sql
-
-sql
 SELECT
   d.dept_name,
   AVG(s.salary) AS avg_salary 
@@ -204,7 +202,6 @@ JOIN
   Salaries s ON e.emp_id = s.emp_id
 GROUP BY
   d.dept_name
-
 ```
 {{</admonition>}}
 這條SQL語句實現了以下功能：
@@ -232,6 +229,8 @@ GROUP BY
 所以你真的很難去說sql比較好或是甚至是新手比較適合什麼等等
 
 所以我想要再提幾個有關sql的點
+
+### 更嚴謹的資料型態
 
 **Structured Data**的好處可以強制資料型態為何！！
 
@@ -331,7 +330,8 @@ sql相對來說就比較需要去避免用戶對db的操作
 
 {{</admonition>}}
 
-:tv: **總結：**
+### 總結
+
 NoSQL適用於需要高度靈活性和可擴展性的場景，如大數據和實時數據處理。然而，DBMS在需要強一致性和複雜查詢的傳統業務應用中表現出色。
 
 無論您選擇哪種數據存儲方法，都需要根據項目需求和性能目標進行明智的選擇。

@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 290
 title: "如何建立個人靜態網站 - Hugo"
 subtitle: ""
 date: 2023-08-26T18:11:09+08:00

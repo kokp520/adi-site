@@ -1,5 +1,5 @@
 ---
-weight: 10
+weight: 270
 title: "SQL vs NoSQL 資料庫的選擇"
 description: "compare sql vs nosql database"
 subtitle: ""

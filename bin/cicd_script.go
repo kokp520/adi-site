@@ -9,9 +9,9 @@ import (
 
 func main() {
 	// 設定 Hugo 專案目錄的路徑
-	hugoProjectPath := "/Users/adi/blog/kokp520.github.io"
+	hugoProjectPath := "/Users/adi/repo/kokp520.github.io"
 
-	hugoPath := "/Users/adi/blog/adisite/"
+	hugoPath := "/Users/adi/repo/adisite/"
 
 	// ----- website content -----
 

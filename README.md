@@ -36,6 +36,30 @@ Hi, 我是Adi，我目前從事軟體工程師一年以上的時間，主要負�
 
 礙於產品開發時程，構思提高開發效率方法，已開發多個能夠提高團隊開發速度`工具`，以及`自動化測試流程`，`整合測試工具`，建構自動化提升團隊開發效率，不需要讓團隊浪費重複且繁瑣的工作，舉例 `AI Server`後期也處理改版文件的統整。
 
+### 2024.12.5
+
+> 基本上會持續記錄個人工作心得, 在該repo內打算不會更新以前的內容而是以新增的方式紀錄change log.
+
+This year i learn a lot about concurrency production and micro service development.
+Since i change my jobs, i have to learn a lot about new tech stack and new language.
+
+include:
+
+hard skills:
+- golang: go-zero, microservices and distributed system.
+- python
+- docker
+- aliyun k8s
+- kakfa
+- redis mysql
+- Cloud architecture and process Big data ETL (aliyun dataworks): this includes using managed services for databass and storage. as well as implementing infrastructure as code (IaC) to automate the provisioning and management of cloud resources.
+
+soft skills:
+
+**Independence**
+
+As a software engineer, I have honed my ability to work independently on complex projects. This involves taking full ownership of the development process, from initial concept to deployment. And also work with team to discuss and design system and business login.
+
 ## LICENSE
 
 Copyright Notice

@@ -121,7 +121,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 頁面頭部導航欄配置
   [params.header]
     # desktop header mode ["fixed", "normal", "auto"]
-    # 桌面��導航欄模式 ["fixed", "normal", "auto"]
+    # 桌面端導航欄模式 ["fixed", "normal", "auto"]
     desktopMode = "fixed"
     # mobile header mode ["fixed", "normal", "auto"]
     # 移動端導航欄模式 ["fixed", "normal", "auto"]
@@ -233,7 +233,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # 搜索框的佔位提示語
     placeholder = ""
     # max number of results length
-    # 最���結果數目
+    # 最大結果數目
     maxResultLength = 10
     # snippet length of the result
     # 結果內容片段長度
@@ -622,7 +622,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # 每一步的打字速度 (單位是毫秒)
     speed = 70
     # blinking speed of the cursor (measured in milliseconds)
-    # ���標的閃爍速度 (單位是毫秒)
+    # 光標的閃爍速度 (單位是毫秒)
     cursorSpeed = 1000
     # character used for the cursor (HTML format is supported)
     # 光標的字符 (支持 HTML 格式)
